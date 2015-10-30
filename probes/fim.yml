@@ -1,0 +1,13 @@
+name: fim
+osquery:
+  schedule:
+    - query: select * from file_events where category='users_shared';
+      removed: false
+      interval: 30
+  file_paths:
+    users_shared:
+      - /Users/Shared/%%
+actions:
+  debug:
+    sub_dir: fim
+  slack_chn1: null
