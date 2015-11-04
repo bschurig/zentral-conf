@@ -1,0 +1,14 @@
+{"name":"testsanta",
+ "santa": [
+   {"sha256": "de5d5662c8d8390c82ebe1235e700babccecd1d998f79ab9cc4e0a04d0c5ea5c",
+    "policy": "BLACKLIST",
+    "rule_type": "BINARY",
+    "custom_msg": "Zentral - Firefox binary blacklist test"
+    }
+ ],
+ "actions":{
+   "slack_macops": {},
+   "pushover": {"groups": ["admin"]}
+ }
+}
+

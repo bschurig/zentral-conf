@@ -2,6 +2,7 @@
   "last_name":"Doe",
   "email":"jane.doe@example.com",
   "phone":"0123456789",
+  "pushover_user_token": "wpWDWOzrrunCLTkmAbJVVxArEjqFJw",                      
   "groups":["admin"]
  },
  {"first_name":"John",
