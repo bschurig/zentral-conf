@@ -66,10 +66,10 @@
    },
    "zentral.contrib.osquery": {
      "enroll_secret_secret": "FOOBARBAZ"
+   },
+   "zentral.contrib.santa": {
+     "machine_id_secret": "FOOBAR"
    }
-  },
-  "zentral.contrib.santa": {
-    "machine_id_secret": "FOOBAR"
 },
   "middlewares": [
     "zentral.contrib.inventory.events.middlewares.MachineMiddleware"
